@@ -1,11 +1,10 @@
 # Geo-Aware Text Summarization with NLP and Transformers
 
-## 📌 Overview
+**📌 Overview**
 This project implements a text summarization pipeline using **T5 Transformer** (abstractive) and **TextRank** (extractive) methods. Additionally, it extracts **geographical locations** from text using **SpaCy + Geopy** to make the summaries more contextual. Evaluation is done using **ROUGE metrics**.
 
 ---
-
-## 🚀 Features
+**🚀 Features**
 - Abstractive summarization with **T5**.
 - Extractive summarization with **TextRank**.
 - Location extraction using **SpaCy NER + Geopy**.
@@ -14,7 +13,7 @@ This project implements a text summarization pipeline using **T5 Transformer** (
 
 ---
 
-## 🛠️ Installation
+**🛠️ Installation**
 Run the following in Google Colab or your terminal:
 
 ```bash
@@ -33,7 +32,7 @@ Extract locations with SpaCy + Geopy (extract_locations).
 
 Evaluate using ROUGE scores.
 
-## 📊 Example Usage
+**📊 Example Usage**
 python
 Copy code
 from summarizer import process_article, textrank_summary, extract_locations
@@ -42,7 +41,7 @@ article = "India is set to host the G20 summit in New Delhi with leaders from ac
 print("T5 Summary:", process_article(article, method="t5"))
 print("TextRank Summary:", textrank_summary(article))
 print("Locations:", extract_locations(article))
-## ✅ Results
+**✅ Results**
 T5 generates fluent summaries.
 
 TextRank extracts key sentences.
@@ -51,7 +50,7 @@ Locations (like India, New Delhi) are extracted accurately.
 
 ROUGE confirms the effectiveness of abstractive summarization.
 
-## 📌 Applications
+**📌 Applications**
 News summarization with geo-context.
 
 Event monitoring systems.
