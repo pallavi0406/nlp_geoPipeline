@@ -42,7 +42,7 @@ article = "India is set to host the G20 summit in New Delhi with leaders from ac
 print("T5 Summary:", process_article(article, method="t5"))
 print("TextRank Summary:", textrank_summary(article))
 print("Locations:", extract_locations(article))
-##✅ Results
+## ✅ Results
 T5 generates fluent summaries.
 
 TextRank extracts key sentences.
